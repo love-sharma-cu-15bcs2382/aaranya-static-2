@@ -282,6 +282,7 @@ FakesAssemblies/
 *.GhostDoc.xml
 
 # Node.js Tools for Visual Studio
+.angular/
 .ntvs_analysis.dat
 node_modules/
 
