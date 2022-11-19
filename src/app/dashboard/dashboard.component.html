@@ -7,15 +7,15 @@
                       <div class="card-icon">
                           <i class="material-icons">content_copy</i>
                       </div>
-                      <p class="card-category">Used Space</p>
-                      <h3 class="card-title">49/50
-                          <small>GB</small>
+                      <p class="card-category">Sessions Attended</p>
+                      <h3 class="card-title">4780/5000
+                          <!-- <small>-1</small> -->
                       </h3>
                   </div>
                   <div class="card-footer">
                       <div class="stats">
                           <i class="material-icons text-danger">warning</i>
-                          <a href="javascript:void(0)">Get More Space...</a>
+                          <a href="javascript:void(0)">Missed 220 sessions...</a>
                       </div>
                   </div>
               </div>
@@ -27,11 +27,11 @@
                           <i class="material-icons">store</i>
                       </div>
                       <p class="card-category">Revenue</p>
-                      <h3 class="card-title">$34,245</h3>
+                      <h3 class="card-title">$3,245</h3>
                   </div>
                   <div class="card-footer">
                       <div class="stats">
-                          <i class="material-icons">date_range</i> Last 24 Hours
+                          <i class="material-icons">date_range</i> Last 6 Month
                       </div>
                   </div>
               </div>
@@ -43,11 +43,11 @@
                           <i class="material-icons">info_outline</i>
                       </div>
                       <p class="card-category">Fixed Issues</p>
-                      <h3 class="card-title">75</h3>
+                      <h3 class="card-title">312</h3>
                   </div>
                   <div class="card-footer">
                       <div class="stats">
-                          <i class="material-icons">local_offer</i> Tracked from Github
+                          <i class="material-icons">local_offer</i> Tracked from BMR Test
                       </div>
                   </div>
               </div>
@@ -59,7 +59,7 @@
                           <i class="fa fa-twitter"></i>
                       </div>
                       <p class="card-category">Followers</p>
-                      <h3 class="card-title">+245</h3>
+                      <h3 class="card-title">+1245</h3>
                   </div>
                   <div class="card-footer">
                       <div class="stats">
@@ -69,7 +69,7 @@
               </div>
           </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
           <div class="col-md-4">
               <div class="card card-chart">
                   <div class="card-header card-header-success">
@@ -119,40 +119,121 @@
                   </div>
               </div>
           </div>
-      </div>
+      </div> -->
       <div class="row">
-          <div class="col-lg-6 col-md-12">
+          <div class="col-lg-12 col-md-12">
               <div class="card">
                   <div class="card-header card-header-tabs card-header-primary">
                       <div class="nav-tabs-navigation">
                           <div class="nav-tabs-wrapper">
-                              <span class="nav-tabs-title">Tasks:</span>
+                              <span class="nav-tabs-title">Packages:</span>
                               <ul class="nav nav-tabs" data-tabs="tabs">
                                   <li class="nav-item">
-                                      <a mat-button class="nav-link active" href="#profile" data-toggle="tab">
-                                          <i class="material-icons">bug_report</i> Bugs
+                                      <a mat-button class="nav-link active" href="#package1" data-toggle="tab">
+                                          <i class="material-icons">code</i> Package 1
                                           <div class="ripple-container"></div>
                                       </a>
                                   </li>
                                   <li class="nav-item">
-                                      <a mat-button class="nav-link" href="#messages" data-toggle="tab">
-                                          <i class="material-icons">code</i> Website
+                                      <a mat-button class="nav-link" href="#package2" data-toggle="tab">
+                                          <i class="material-icons">code</i> Package 2
                                           <div class="ripple-container"></div>
                                       </a>
                                   </li>
                                   <li class="nav-item">
-                                      <a mat-button class="nav-link" href="#settings" data-toggle="tab">
-                                          <i class="material-icons">cloud</i> Server
+                                      <a mat-button class="nav-link" href="#package3" data-toggle="tab">
+                                          <i class="material-icons">code</i> Package 3
                                           <div class="ripple-container"></div>
                                       </a>
                                   </li>
+                                  <li class="nav-item">
+                                    <a mat-button class="nav-link" href="#package4" data-toggle="tab">
+                                        <i class="material-icons">code</i> Package 4
+                                        <div class="ripple-container"></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a mat-button class="nav-link" href="#package5" data-toggle="tab">
+                                        <i class="material-icons">code</i> Customized [Personal Trainers]
+                                        <div class="ripple-container"></div>
+                                    </a>
+                                </li>
                               </ul>
                           </div>
                       </div>
                   </div>
                   <div class="card-body">
                       <div class="tab-content">
-                          <div class="tab-pane active" id="profile">
+                          <div class="tab-pane active" id="package1">
+                              <table class="table">
+                                  <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Therapy (12 per Month)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Yoga (Once a week)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>Dietician (Once a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+                          <div class="tab-pane" id="package2">
                               <table class="table">
                                   <tbody>
                                       <tr>
@@ -166,50 +247,7 @@
                                                   </label>
                                               </div>
                                           </td>
-                                          <td>Sign contract for "What are conference organizers afraid of?"</td>
-                                          <td class="td-actions text-right">
-                                              <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">edit</i>
-                                              </button>
-                                              <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">close</i>
-                                              </button>
-                                          </td>
-                                      </tr>
-                                      <tr>
-                                          <td>
-                                              <div class="form-check">
-                                                  <label class="form-check-label">
-                                                      <input class="form-check-input" type="checkbox" value="">
-                                                      <span class="form-check-sign">
-                                                          <span class="check"></span>
-                                                      </span>
-                                                  </label>
-                                              </div>
-                                          </td>
-                                          <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
-                                          <td class="td-actions text-right">
-                                              <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">edit</i>
-                                              </button>
-                                              <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">close</i>
-                                              </button>
-                                          </td>
-                                      </tr>
-                                      <tr>
-                                          <td>
-                                              <div class="form-check">
-                                                  <label class="form-check-label">
-                                                      <input class="form-check-input" type="checkbox" value="">
-                                                      <span class="form-check-sign">
-                                                          <span class="check"></span>
-                                                      </span>
-                                                  </label>
-                                              </div>
-                                          </td>
-                                          <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                                          </td>
+                                          <td>Therapy (20 per Month)</td>
                                           <td class="td-actions text-right">
                                               <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
                                                   <i class="material-icons">edit</i>
@@ -230,7 +268,7 @@
                                                   </label>
                                               </div>
                                           </td>
-                                          <td>Create 4 Invisible User Experiences you Never Knew About</td>
+                                          <td>Yoga (Twice a week)</td>
                                           <td class="td-actions text-right">
                                               <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
                                                   <i class="material-icons">edit</i>
@@ -240,12 +278,180 @@
                                               </button>
                                           </td>
                                       </tr>
+                                      <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Dietician (Once a week)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Zumba ( Once a week)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Basic Counselling Session (Once a week)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
                                   </tbody>
                               </table>
                           </div>
-                          <div class="tab-pane" id="messages">
+                          <div class="tab-pane" id="package3">
                               <table class="table">
                                   <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Therapy (20 per Month)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Yoga (Chair Yoga Everyday for Half an Hour)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>Dietician (Once a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>Zumba ( Once a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>One- to- One Counselling Session (Twice a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
                                       <tr>
                                           <td>
                                               <div class="form-check">
@@ -257,8 +463,440 @@
                                                   </label>
                                               </div>
                                           </td>
-                                          <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+                                          <td>Fundoo Friday (Twice a month)</td>
+                                          <td class="td-actions text-right">
+                                              <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                  <i class="material-icons">edit</i>
+                                              </button>
+                                              <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                  <i class="material-icons">close</i>
+                                              </button>
                                           </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="form-check">
+                                                  <label class="form-check-label">
+                                                      <input class="form-check-input" type="checkbox" value="" checked>
+                                                      <span class="form-check-sign">
+                                                          <span class="check"></span>
+                                                      </span>
+                                                  </label>
+                                              </div>
+                                          </td>
+                                          <td>Basic Argonomics Sessions ( Once a week)</td>
+                                          <td class="td-actions text-right">
+                                              <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                  <i class="material-icons">edit</i>
+                                              </button>
+                                              <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                  <i class="material-icons">close</i>
+                                              </button>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Seminars (Health Tips, Wellness Expert Opinion, Healthy Recepies )</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+                          <div class="tab-pane" id="package4">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Therapy (20 per Month)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Yoga (Chair Yoga Everyday for Half an Hour)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>Dietician (Once a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>Zumba ( Once a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="" checked>
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>One- to- One Counselling Session (Twice a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="form-check">
+                                                  <label class="form-check-label">
+                                                      <input class="form-check-input" type="checkbox" value="" checked>
+                                                      <span class="form-check-sign">
+                                                          <span class="check"></span>
+                                                      </span>
+                                                  </label>
+                                              </div>
+                                          </td>
+                                          <td>Fundoo Friday (Twice a month)</td>
+                                          <td class="td-actions text-right">
+                                              <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                  <i class="material-icons">edit</i>
+                                              </button>
+                                              <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                  <i class="material-icons">close</i>
+                                              </button>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="form-check">
+                                                  <label class="form-check-label">
+                                                      <input class="form-check-input" type="checkbox" value="" checked>
+                                                      <span class="form-check-sign">
+                                                          <span class="check"></span>
+                                                      </span>
+                                                  </label>
+                                              </div>
+                                          </td>
+                                          <td>Basic Argonomics Sessions ( Once a week)</td>
+                                          <td class="td-actions text-right">
+                                              <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                  <i class="material-icons">edit</i>
+                                              </button>
+                                              <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                  <i class="material-icons">close</i>
+                                              </button>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Seminars (Health Tips, Wellness Expert Opinion, Healthy Recepies )</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Weighloss Challenges ( Three Months)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Cholestrol Control Challenge (One Month)
+                                        </td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Diabetes Control Management (One Month)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="" checked>
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Water Deficiency Challenge (One Month)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane" id="package5">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Therapy (20 per Month)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Yoga (Disease Specific)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="">
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>Dietician (Once a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="">
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>Zumba ( Once a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                          <div class="form-check">
+                                              <label class="form-check-label">
+                                                  <input class="form-check-input" type="checkbox" value="">
+                                                  <span class="form-check-sign">
+                                                      <span class="check"></span>
+                                                  </span>
+                                              </label>
+                                          </div>
+                                      </td>
+                                      <td>One- to- One Counselling Session (Twice a week)</td>
+                                      <td class="td-actions text-right">
+                                          <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">edit</i>
+                                          </button>
+                                          <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                              <i class="material-icons">close</i>
+                                          </button>
+                                      </td>
+                                  </tr>
+                                      <tr>
+                                          <td>
+                                              <div class="form-check">
+                                                  <label class="form-check-label">
+                                                      <input class="form-check-input" type="checkbox" value="">
+                                                      <span class="form-check-sign">
+                                                          <span class="check"></span>
+                                                      </span>
+                                                  </label>
+                                              </div>
+                                          </td>
+                                          <td>Fundoo Friday (Twice a month)</td>
                                           <td class="td-actions text-right">
                                               <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
                                                   <i class="material-icons">edit</i>
@@ -279,34 +917,7 @@
                                                   </label>
                                               </div>
                                           </td>
-                                          <td>Sign contract for "What are conference organizers afraid of?"</td>
-                                          <td class="td-actions text-right">
-                                              <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">edit</i>
-                                              </button>
-                                              <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">close</i>
-                                              </button>
-                                          </td>
-                                      </tr>
-                                  </tbody>
-                              </table>
-                          </div>
-                          <div class="tab-pane" id="settings">
-                              <table class="table">
-                                  <tbody>
-                                      <tr>
-                                          <td>
-                                              <div class="form-check">
-                                                  <label class="form-check-label">
-                                                      <input class="form-check-input" type="checkbox" value="">
-                                                      <span class="form-check-sign">
-                                                          <span class="check"></span>
-                                                      </span>
-                                                  </label>
-                                              </div>
-                                          </td>
-                                          <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
+                                          <td>Basic Argonomics Sessions ( Once a week)</td>
                                           <td class="td-actions text-right">
                                               <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
                                                   <i class="material-icons">edit</i>
@@ -317,56 +928,119 @@
                                           </td>
                                       </tr>
                                       <tr>
-                                          <td>
-                                              <div class="form-check">
-                                                  <label class="form-check-label">
-                                                      <input class="form-check-input" type="checkbox" value="" checked>
-                                                      <span class="form-check-sign">
-                                                          <span class="check"></span>
-                                                      </span>
-                                                  </label>
-                                              </div>
-                                          </td>
-                                          <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                                          </td>
-                                          <td class="td-actions text-right">
-                                              <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">edit</i>
-                                              </button>
-                                              <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">close</i>
-                                              </button>
-                                          </td>
-                                      </tr>
-                                      <tr>
-                                          <td>
-                                              <div class="form-check">
-                                                  <label class="form-check-label">
-                                                      <input class="form-check-input" type="checkbox" value="" checked>
-                                                      <span class="form-check-sign">
-                                                          <span class="check"></span>
-                                                      </span>
-                                                  </label>
-                                              </div>
-                                          </td>
-                                          <td>Sign contract for "What are conference organizers afraid of?"</td>
-                                          <td class="td-actions text-right">
-                                              <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">edit</i>
-                                              </button>
-                                              <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
-                                                  <i class="material-icons">close</i>
-                                              </button>
-                                          </td>
-                                      </tr>
-                                  </tbody>
-                              </table>
-                          </div>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Seminars (Health Tips, Wellness Expert Opinion, Healthy Recepies )</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Weighloss Challenges ( Three Months)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Cholestrol Control Challenge (One Month)
+                                        </td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Diabetes Control Management (One Month)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="checkbox" value="">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                        <td>Water Deficiency Challenge (One Month)</td>
+                                        <td class="td-actions text-right">
+                                            <button mat-raised-button type="button" matTooltip="Edit Task" [matTooltipPosition]="'above'" class="btn btn-primary btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                            <button mat-raised-button type="button" matTooltip="Remove" [matTooltipPosition]="'above'" class="btn btn-danger btn-link btn-sm btn-just-icon">
+                                                <i class="material-icons">close</i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                       </div>
                   </div>
               </div>
           </div>
-          <div class="col-lg-6 col-md-12">
+          <!-- <div class="col-lg-12 col-md-12">
               <div class="card">
                   <div class="card-header card-header-warning">
                       <h4 class="card-title">Employees Stats</h4>
@@ -409,7 +1083,7 @@
                       </table>
                   </div>
               </div>
-          </div>
+          </div> -->
       </div>
   </div>
 </div>
